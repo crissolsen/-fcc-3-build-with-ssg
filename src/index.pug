@@ -10,4 +10,10 @@ button Here's a button!
 
 .container
  h3 Look here, will you?
+
+.container
+    ul
+     each job in jobs
+        li= job.title + " " + job.uuid
+ 
 script(src="./js/main.js")
